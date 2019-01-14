@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/">
+	<menu id="root-menu" label="Menu">
+		<item label="Navegador de Arquivos">
+			<action name="Execute">
+				<execute>nautilus</execute>
+			</action>
+		</item>
+		<item label="Nvidia Settings" >
+			<action name="Execute">
+				<execute>nvidia-settings</execute>
+			</action>
+		</item>
+		<item label="Terminal" ICON="terminal">
+			<action name="Execute">
+				<execute>/home/rodrigo/termite/termite</execute>
+			</action>
+		</item>
+		<separator/>
+		<menu id="Openbox" label="Openbox">
+			<item label="Reconfigure">
+				<action name="Execute">
+					<execute>openbox --reconfigure</execute>
+				</action>
+			</item>
+			<item label="Autostart">
+				<action name="Execute">
+					<execute>leafpad ~/.config/openbox/autostart</execute>
+				</action>
+			</item>
+			<item label="RC">
+				<action name="Execute">
+					<execute>leafpad ~/.config/openbox/rc.xml</execute>
+				</action>
+			</item>
+			<item label="Menu">
+				<action name="Execute">
+					<execute>leafpad ~/.config/openbox/menu.xml</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Obmenu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="Obconf">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Obkey">
+				<action name="Execute">
+					<execute>python ~/.config/obkey/obkey</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Settings" label="Settings">
+			<item label="Customize Visual">
+				<action name="Execute">
+					<execute>lxappearance</execute>
+				</action>
+			</item>
+			<item label="Nitrogen Wall">
+				<action name="Execute">
+					<execute>nitrogen ~/Imagens/Wallpaper</execute>
+				</action>
+			</item>
+			<item label="Monitor Settings">
+				<action name="Execute">
+					<execute>lxrandr</execute>
+				</action>
+			</item>
+			<item label="Network Connections">
+				<action name="Execute">
+					<execute>nm-connection-editor</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Obmenu">
+			<action name="Execute">
+				<execute>obmenu</execute>
+			</action>
+		</item>
+		<item label="Aparencia">
+			<action name="Execute">
+				<execute>lxappearance</execute>
+			</action>
+		</item>
+		<menu id="Session" label="Session">
+			<item label="Logout">
+				<action name="Execute">
+					<execute>openbox --exit</execute>
+				</action>
+			</item>
+			<item label="Restart">
+				<action name="Execute">
+					<execute>systemctl reboot</execute>
+				</action>
+			</item>
+			<item label="Suspend">
+				<action name="Execute">
+					<execute>systemctl suspend</execute>
+				</action>
+			</item>
+			<item label="Shutdown">
+				<action name="Execute">
+					<execute>systemctl poweroff</execute>
+				</action>
+			</item>
+			<item label="Lock">
+				<action name="Execute">
+					<execute>slock</execute>
+				</action>
+			</item>
+		</menu>
+		<menu id="Apps" label="Apps">
+			<item label="Spotify">
+				<action name="Execute">
+					<execute>spotify</execute>
+				</action>
+			</item>
+			<item label="Lutris">
+				<action name="Execute">
+					<execute>lutris</execute>
+				</action>
+			</item>
+		</menu>
+		<item label="Sair">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
