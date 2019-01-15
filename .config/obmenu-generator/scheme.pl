@@ -33,7 +33,7 @@ our $SCHEMA = [
     {item => ['xdg-open .',        'File Manager',      'file-manager']},
     {item => ['tilix',             'Terminal',          'terminal']},
     {item => ['xdg-open http://',  'Web Browser',       'web-browser']},
-    {item => ['gmrun',             'Run command',       'system-run']},
+    {item => ['rofi',             'Run command',       'system-run']},
 
     {sep => 'Categories'},
 
