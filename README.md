@@ -1,7 +1,7 @@
 # .dotfiles
 
 # Preview
- ![Preview](https://raw.githubusercontent.com/rodlessa/openbox/master/screenshot/ScreenShot_2019_01_16_ 5-10-08-1920x1080.png)
+ ![Preview](https://github.com/rodlessa/openbox/blob/master/screenshot/ScreenShot_2019_01_16_%205-10-08-1920x1080.png)
  
 # Icons: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
    
