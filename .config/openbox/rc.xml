@@ -19,21 +19,21 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Onyx</name>
+    <name>Matcha-azul</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Sans</name>
-      <size>13</size>
+      <name>Roboto</name>
+      <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Sans</name>
-      <size>13</size>
+      <name>Roboto</name>
+      <size>11</size>
       <weight>Normal</weight>
-      <slant>Normal</slant>
+      <slant>Italic</slant>
     </font>
     <font place="MenuHeader">
       <name>Roboto</name>
